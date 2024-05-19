@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+     background-color: beige;
+}
+
+main {
+    width: 65%;
+    margin: 20px auto;
+    border: 1px solid darkblue;
+    background-color: white;
+}
+
+#logo{
+    height: 70px;
+    margin: 15px 0px 0px 15px;
+}
+
+#cabe{
+    background-color: rgb(238, 237, 233);
+    margin: 10px 32px 5px;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+#lis{
+    list-style: none;
+    display: flex;
+}
+
+#lis > li {
+    font-size: smaller;
+    color: aliceblue;
+    margin: 0px 2px;
+    padding: 5px 4px 7px;
+    background-color: rgb(66, 107, 108);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#lis > li:hover {
+    color: whitesmoke;
+    background-color: black;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid darkblue;
+    background-color: darkblue;
+    height: 3.5px;
+    margin: 0px 32px 0px 32px;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.article {
+    width: 50%;
+}
+
+.one, .three {
+    padding: 10px 8px 10px 32px;
+}
+
+.two, .four {
+    padding: 10px 32px 10px 8px;
+}
+
+p {
+    font-size: 13px;
+    text-align: justify;
+    margin: 2px 0px;
+}
+
+.name {
+    color: aliceblue;
+    text-align: center;
+    font-size: small;
+}
+
+.uno {
+    background-color: #e44d26;
+}
+
+.dos {
+    background-color: rgb(214, 186, 50)
+    ;
+}
+
+.tres {
+    background-color: rgb(33, 76, 229);
+}
+
+.cuatro {
+    background-color: rgb(97, 221, 253);
+}
+
+#icons{
+    height: 90px;
+    margin: 7px 8px 0px 8px;
+    float: left;
+}
+
+#footer {
+    margin: 8px 32px 35px;
+    /* padding: 10px; */
+    background-color: rgb(238, 237, 233);
+    display: flex;
+    justify-content: space-between;
+}
+
+#text > p {
+    font-size: 14px;
+    margin: 2px 5px 8px;
+}
+
+#redes {
+    margin: 5px ;
+    width: 15%;
+}
+
+#redes > img {
+    width: 100%;
+}
+
+
+
