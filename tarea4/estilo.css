@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    --color1:#8C6F4A;
+    --color2:#A6592D;
+    --color3:#8C1414;
+    --color4:#591414;
+    --color5:#0D0D0D;
+    --color6:#FDFDFD;
+}
+main{
+    width: 75%;
+    margin:20px auto;
+    background-color: var(--color5);
+    color:var(--color6);
+}
+#cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:10px;
+    border: 1px solid var(--color6);
+}
+#logo{
+    width:30%;  /*div contenedor del logo medira el 30% del ancho de la cabecera*/  
+}
+#banner{
+    width:50%;  /*div contenedor del banner medira el 30% del ancho de la cabecera*/  
+} 
+#cabecera img{
+    width:100%;/*las imagenes no sobrepasaran el tamaño de su correspondiente contenedor*/
+               /*ampliar y reducir el tamaño del ancho de la web para observar ajuste*/
+}
+#contenido{
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    border: 1px solid var(--color6);
+    margin:20px;  
+}
+#contenido img{
+    width: 40%;
+    border:1px solid var(--color3);    
+}
+#navegador,#seccion,#lateral{
+    margin:10px;
+    padding:10px;
+}
+
+#navegador{
+    width: 20%; 
+    border:1px solid var(--color6);
+    padding-top:20%;
+    background-color: var(--color1);
+    
+}
+#menu li{
+    list-style: none;
+    font-size: large;
+    padding:5px;
+    
+}
+#menu li a{
+    color:var(--color6)
+}
+#seccion{
+    width:60%;  
+    border:1px solid;
+    margin-bottom: 10px;      
+}
+.articulo{    
+   margin: 20px;
+   padding:10px;
+    border-top:1px dotted var(--color6)
+}
+.articulo div{
+    text-align:center ;    
+}
+h1,h3{
+    text-align: center;
+    padding:5px;   
+}
+h3{
+    text-decoration: underline;   
+}
+.articulo p{
+    font-style:oblique ;
+}
+#lateral{
+    width:20%;   
+    text-align: center; 
+    border:1px solid var(--color6);
+    padding-top:20%;
+}
+#lateral img{
+   margin:20px;   
+}
+#pie{
+    
+    padding-top:20px;
+    border: 1px solid var(--color6);
+    text-align: center;
+}
