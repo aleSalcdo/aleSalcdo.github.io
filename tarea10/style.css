@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --color1: #013750;
+    --color2: #00988d;
+    --color3: #2c6b74;
+    --color4: #fef5c8;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+header {
+    background-color: var(--color2);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#ciq{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#op {
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    /* margin: 0 auto; */
+    /* justify-content: space-evenly; */
+}
+
+#op a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 auto;
+}
+
+
+/* cuerpo */
+
+#main {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px 0px 50px;
+}
+
+#cuerpo {
+    margin-top: 55px;
+}
+
+h2 {
+    background-color: var(--color1);
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+}
+
+
+/* tablas */
+hr {
+    border: 2px solid var(--color2);
+    margin-top: 2px;
+}
+
+.titulo {
+    background-color: var(--color1); /* Color de fondo del encabezado */
+    color: white;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+}
+.titulod {
+    background-color: var(--color2); /* Color de fondo del encabezado */
+    color: white;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+table.tarifario {
+    width: 100%;
+    margin: 15px auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #fff;
+    font-size: 10px;
+}
+
+table.tarifariod {
+    width: 100%;
+    margin: 15px auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #fff;
+    font-size: 10px;
+}
+
+table.tarifario th, table.tarifario td {
+    border: 2px solid #ddd;
+    padding: 1.5px 12px;
+    background-color: var(--color2);
+    color: white;
+}
+table.tarifariod th, table.tarifariod td {
+    border: 2px solid white;
+    padding: 1.5px 12px;
+    background-color: var(--color1);
+    color: white;
+}
+
+
+table.tarifario th {
+    background-color: var(--color1); /* Color de fondo de los encabezados de columna */
+    color: white;
+}
+table.tarifariod th {
+    background-color: var(--color3); /* Color de fondo de los encabezados de columna */
+    color: white;
+}
+
+table.tarifario tr td.active {
+    background-color: var(--color1); /* Color de fondo de las celdas activas */
+    color: white;
+}
+
+table.tarifariod tr td.active {
+    background-color: var(--color3); /* Color de fondo de las celdas activas */
+    color: white;
+}
+
+/* form */
+
+aside {
+    width: 20%;
+}
+
+.busqueda {
+    background-color: var(--color2);
+    padding: 20px 20px 160px;
+    border: 1px solid var(--color4);
+    /* width: 45%; */
+    border-radius: 5px;
+}
+
+.busqueda h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+select, input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#fecha-ida, #fecha-vuelta {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: var(--color1);
+    color: white;
+    border: 5px solid var(--color3);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--color3);
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: var(--color1);
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.footer-links div {
+    margin: 0 10px;
+}
+
+.footer-links h4 {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid var(--color2);
+    margin-top: 20px;
+}
+
+
+
+
+/* contaco.html */
+
+#mainc {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    /* align-items: center; */
+    gap: 20px;
+    justify-content: center;
+    padding: 15px 0px 50px;
+}
+
+
+#section1 {
+    width: 25%;
+}
+
+#info {
+    display: flex;
+    gap: 5px;
+}
+
+h3 {
+    margin: 15px 0px;
+    color: var(--color2);
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 30px;
+}
+
+#mid {
+    width: 25%;
+}
+
+.lb {
+    margin: 8px 0px 5px;
+}
+
+textarea {
+    width: 100%;
+}
+textarea::placeholder {
+    font-size: 14px;
+}
+
+#bt {
+    width: 100%;
+    padding: 5px 10px;
+    margin-top: 20px;
+    background-color: var(--color1);
+    color: white;
+    border: 5px solid var(--color3);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#bt:hover {
+    background-color: var(--color3);
+}
+
+#map {
+    width: 30%;
+}
