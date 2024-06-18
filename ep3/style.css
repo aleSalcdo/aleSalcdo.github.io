@@ -388,7 +388,7 @@ figure > img:hover {
     margin-bottom: 5px;
 }
 hr {
-    border: 1px solid tomato;
+    border: 2px solid tomato;
     border-style: dotted dashed;
     width: 85%;
     margin: 10px auto;
